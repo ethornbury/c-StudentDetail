@@ -7,11 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO; 
+//when going outside the program, need this line
 
 namespace CollegeEx
 {
     public partial class Form1 : Form
     {
+        //declare filepath here so available across
+        //before the string = @"and put what you need in";
+        string filepath = "p:\\test\\students.csv";
+        
+
         public Form1()
         {
             InitializeComponent();
