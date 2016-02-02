@@ -16,5 +16,27 @@ namespace CollegeEx
         {
             InitializeComponent();
         }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            string fname = txtBxFname.Text;
+            string lname = txtBxSurname.Text;
+            string dob = dtpDOB.Text;
+            string gender;
+            if(rdoMale.Checked)
+            {
+                gender = "Male";
+            }
+            else if(rdoFemale.Checked)
+            {
+                gender = "Female";
+            }
+            string email = txtBxEmail.Text;
+            string course = cmbBxCourseDet.SelectedItem.ToString();
+
+
+
+
+        }
     }
 }

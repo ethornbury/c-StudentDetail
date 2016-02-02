@@ -121,7 +121,7 @@
             // 
             this.grpBxCourseDet.Controls.Add(this.lblCourse);
             this.grpBxCourseDet.Controls.Add(this.cmbBxCourseDet);
-            this.grpBxCourseDet.Location = new System.Drawing.Point(43, 263);
+            this.grpBxCourseDet.Location = new System.Drawing.Point(43, 254);
             this.grpBxCourseDet.Name = "grpBxCourseDet";
             this.grpBxCourseDet.Size = new System.Drawing.Size(273, 100);
             this.grpBxCourseDet.TabIndex = 1;
@@ -203,16 +203,17 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(62, 380);
+            this.btnSave.Location = new System.Drawing.Point(57, 360);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 2;
             this.btnSave.Text = "Save Data";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(219, 380);
+            this.btnLoad.Location = new System.Drawing.Point(219, 360);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(75, 23);
             this.btnLoad.TabIndex = 3;
@@ -222,7 +223,7 @@
             // lblDispData
             // 
             this.lblDispData.BackColor = System.Drawing.Color.RosyBrown;
-            this.lblDispData.Location = new System.Drawing.Point(43, 435);
+            this.lblDispData.Location = new System.Drawing.Point(43, 397);
             this.lblDispData.Name = "lblDispData";
             this.lblDispData.Size = new System.Drawing.Size(273, 77);
             this.lblDispData.TabIndex = 4;
@@ -232,7 +233,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(351, 534);
+            this.ClientSize = new System.Drawing.Size(351, 491);
             this.Controls.Add(this.lblDispData);
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.btnSave);
