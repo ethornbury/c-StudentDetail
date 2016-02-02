@@ -65,12 +65,17 @@ namespace CollegeEx
 
         private void btnLoad_Click(object sender, EventArgs e)
         {
-            StreamReader sr = new StreamReader(myfilepath);
-            string currentContent = File.ReadAllText(myfilepath);
-            //save content to string
-            lblDispData.Text = currentContent;
-            sr.Close();
+            DialogResult dr = MessageBox.Show("Do you really want to load? ", "Load", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+            //messageBox parameters = msge that appears in box, header for box, box yes/no, icon
 
+            if (dr == DialogResult.Yes)
+            {
+                StreamReader sr = new StreamReader(myfilepath);
+                string currentContent = File.ReadAllText(myfilepath);
+                //save content to string
+                lblDispData.Text = currentContent;
+                sr.Close();
+            }
            
         }
     }

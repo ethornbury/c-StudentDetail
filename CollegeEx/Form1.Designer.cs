@@ -156,6 +156,7 @@
             this.txtBxFname.Name = "txtBxFname";
             this.txtBxFname.Size = new System.Drawing.Size(100, 22);
             this.txtBxFname.TabIndex = 5;
+            this.txtBxFname.Text = "Barry";
             // 
             // txtBxSurname
             // 
@@ -234,7 +235,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(351, 491);
+            this.ClientSize = new System.Drawing.Size(350, 491);
             this.Controls.Add(this.lblDispData);
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.btnSave);
