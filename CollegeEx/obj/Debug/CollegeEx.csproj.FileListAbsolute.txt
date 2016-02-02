@@ -1,0 +1,9 @@
+P:\OOP\CollegeEx\CollegeEx\bin\Debug\CollegeEx.exe.config
+P:\OOP\CollegeEx\CollegeEx\bin\Debug\CollegeEx.exe
+P:\OOP\CollegeEx\CollegeEx\bin\Debug\CollegeEx.pdb
+P:\OOP\CollegeEx\CollegeEx\obj\Debug\CollegeEx.csprojResolveAssemblyReference.cache
+P:\OOP\CollegeEx\CollegeEx\obj\Debug\CollegeEx.Form1.resources
+P:\OOP\CollegeEx\CollegeEx\obj\Debug\CollegeEx.Properties.Resources.resources
+P:\OOP\CollegeEx\CollegeEx\obj\Debug\CollegeEx.csproj.GenerateResource.Cache
+P:\OOP\CollegeEx\CollegeEx\obj\Debug\CollegeEx.exe
+P:\OOP\CollegeEx\CollegeEx\obj\Debug\CollegeEx.pdb
