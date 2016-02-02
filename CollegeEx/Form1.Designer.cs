@@ -219,6 +219,7 @@
             this.btnLoad.TabIndex = 3;
             this.btnLoad.Text = "Load Data";
             this.btnLoad.UseVisualStyleBackColor = true;
+            this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
             // 
             // lblDispData
             // 

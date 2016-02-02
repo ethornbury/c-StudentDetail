@@ -39,6 +39,7 @@ namespace CollegeEx
                 gender = "Female";
             }
             string email = txtBxEmail.Text;
+
             string course = cmbBxCourseDet.SelectedItem.ToString();
 
             //streaming will buffer in the data
@@ -60,6 +61,17 @@ namespace CollegeEx
             //clear the boxes for the next input 
             
 
+        }
+
+        private void btnLoad_Click(object sender, EventArgs e)
+        {
+            StreamReader sr = new StreamReader(myfilepath);
+            string currentContent = File.ReadAllText(myfilepath);
+            //save content to string
+            lblDispData.Text = currentContent;
+            sr.Close();
+
+           
         }
     }
 }
